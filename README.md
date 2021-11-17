@@ -16,7 +16,17 @@ Note:
 
 First turn off your Wifi.
 
+Hack WIfi Using Kali!
+Installation :
+$ git clone https://github.com/rareblack35/wifihack
+$ cd wifihack
+$ chmod +x dark.py
+$ sudo python3 dark.py -i wlan1 -K
 
+$ sudo python dark.py --help
+
+Example : sudo python3 dark.py -i wlan0 -K
+Note:
 
     Show avaliable networks and start Pixie Dust attack on a specified network.
     sudo python3 dark.py -i wlan0 -K
