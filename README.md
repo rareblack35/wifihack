@@ -3,15 +3,24 @@
 Hack WIfi Using Termux! (Requires Root)
 Installation :
 
+
 $ apt update && apt upgrade
+
 $ pkg install -y root-repo
+
 $ pkg install -y git tsu python wpa-supplicant pixiewps iw
+
 $ git clone https://github.com/rareblack35/wifihack
+
 $ cd wifihack
+
 $ chmod +x dark.py
+
 $ sudo python dark.py --help
 
+
 Example : sudo python3 dark.py -i wlan0 -K
+
 Note:
 
 First turn off your Wifi.
