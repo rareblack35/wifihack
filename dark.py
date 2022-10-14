@@ -147,6 +147,8 @@ class WPSpin:
             pin = int(pin / 10)
         return (10 - accum % 10) % 10
 
+
+
     def generate(self, algo, mac):
         """
         WPS pin generator
